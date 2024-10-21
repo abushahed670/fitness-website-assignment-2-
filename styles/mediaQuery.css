@@ -6,13 +6,13 @@
 .list-items{
     display: none;
 }
-    .fa-solid {
+    .icon{
         display: block;
     }
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
-    .fa-solid {
+    .icon {
         display: none;
     }
 }
