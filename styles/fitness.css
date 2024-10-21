@@ -1,10 +1,19 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    font-style: normal;
+}
+
+.dancing-script-font {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -27,12 +36,24 @@ body {
     display: flex;
 }
 
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    border-radius: 36px;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border: none;
+}
+
 /* navbar related styles */
-.fitness{
+.fitness {
     color: #E6533C;
     font-size: 2.25rem;
     font-weight: 800;
 }
+
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -52,17 +73,66 @@ body {
     padding-left: 0;
 
 }
-.list-item{
+
+.list-item {
     background-color: #E6533C;
     /* padding-right: 20px; */
     border-radius: 24px;
     text-align: center;
-    padding-left:7px ;
+    padding-left: 7px;
 }
-.list-item li{
+
+.list-item li {
     text-align: center;
     align-items: center;
 }
-.icon{
+
+.icon {
     display: none;
+}
+
+/* banner style  */
+.banner-container {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 190px;
+}
+
+.banner-title {
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF80;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0;
+}
+
+.btn-secondary {
+    width: 224px;
+    height: 54px;
+    border-radius: 36px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.banner-img {
+    padding-left: 50px;
+}
+
+.tutorial-container {
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: rgba(48, 48, 48, 0.54);
+    /* border: none; */
 }
