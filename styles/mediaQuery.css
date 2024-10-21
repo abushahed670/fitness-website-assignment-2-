@@ -1,0 +1,18 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+    .navbar {
+        justify-content: space-between;
+    }
+.list-items{
+    display: none;
+}
+    .fa-solid {
+        display: block;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .fa-solid {
+        display: none;
+    }
+}
