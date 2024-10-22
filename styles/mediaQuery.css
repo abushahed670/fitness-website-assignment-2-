@@ -3,7 +3,7 @@
     .navbar {
         justify-content: space-between;
     }
-    .banner-container{
+    .banner-container, .extra-container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
