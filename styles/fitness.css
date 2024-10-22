@@ -219,6 +219,7 @@ body {
 
 /* run and extra section styles  */
 .extra-section {
+    margin-top: 40px;
     width: 1060px;
     height: 371px;
     border-radius: 18px;
@@ -252,3 +253,56 @@ body {
     font-weight: 400;
     margin-bottom: 10px;
 }
+
+/* meet our team style  */
+.teams-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.teams{
+    margin-top: 50px;
+    padding: 0 70px;
+}
+.section-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+}
+.teams-content{
+    width: 1200px;
+    height: 700px;
+    border-radius: 16px;
+    background-color: #FFFFFF1A;
+    margin: 30px;
+}
+.team{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.team img{
+    border-radius: 18px;
+}
+#team-img{
+    width: 350px;
+    height: 300px;
+}
+.des-title{
+    margin-left: 20px;
+    margin-top: -50px;
+}
+.trainer-name{
+font-size: 1.15rem;
+font-weight: 500;
+
+}
+.position{
+    font-size: 0.7rem;
+    color: #f5f0f070; 
+}
+/* .team-1{
+    background-image: url(../images/trainer1.png);
+    align-self: stretch;
+} */

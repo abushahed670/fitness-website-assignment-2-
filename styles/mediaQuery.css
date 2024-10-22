@@ -13,7 +13,7 @@
     .btn{
         justify-content: space-evenly;
     }
-    .habits-container{
+    .habits-container, .teams-content{
         grid-template-columns: 1fr;
     }
 .list-items{
@@ -27,7 +27,13 @@
         font-weight: 600;
         width: 100%;
     }
-    
+    .teams{
+        margin-top: 300px;
+    }
+    .teams-content{
+        justify-content: center;
+        align-items: center;
+    }
    
 }
 
