@@ -3,12 +3,32 @@
     .navbar {
         justify-content: space-between;
     }
+    .banner-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .btn{
+        justify-content: space-evenly;
+    }
+    .habits-container{
+        grid-template-columns: 1fr;
+    }
 .list-items{
     display: none;
 }
     .icon{
         display: block;
     }
+    .banner-title {
+        font-size: 2rem;
+        font-weight: 600;
+        width: 100%;
+    }
+    
+   
 }
 
 /* @media screen and (min-width:577px) and (max-width:992px) {

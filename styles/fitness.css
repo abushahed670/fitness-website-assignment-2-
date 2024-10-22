@@ -128,7 +128,8 @@ body {
     padding-left: 50px;
 }
 
-.tutorial-container, .workout-container {
+.tutorial-container,
+.workout-container {
     width: 206px;
     height: 96px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -137,25 +138,81 @@ body {
     /* border: none; */
     color: white;
 }
-.tutorial-container{
+
+.tutorial-container {
     /* margin-left: -5px; */
     margin-top: -750px;
 }
-.digits-1{
+
+.digits-1 {
     font-size: 2.15rem;
     font-weight: 900;
     text-align: center;
 }
-.tutorial-hints, .workout-hints{
+
+.tutorial-hints,
+.workout-hints {
     color: #EFEDE8A6;
     font-size: 1rem;
     font-weight: 400;
 }
-.digits-2{
+
+.digits-2 {
     font-size: 2rem;
     font-weight: 900;
 }
-.workout-container{
+
+.workout-container {
     margin-left: 300px;
     margin-top: -2000px;
+}
+
+/* habits section styles  */
+.habits {
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #FFFFFF80;
+    margin-top: 10px;
+}
+
+.habits-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 60px;
+}
+
+.habit-item {
+    width: 250px;
+    height: 300px;
+}
+
+.habit-img {
+    border-radius: 50%;
+}
+
+.sub-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
 }
